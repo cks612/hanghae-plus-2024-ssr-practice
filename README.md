@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# 프로젝트 개요
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- React 프로젝트에서 SEO 대응을 위한 최소 작업 대응
 
-## Available Scripts
+## 개발환경 세팅
 
-In the project directory, you can run:
+### Terminal:
 
-### `npm start`
+```sh
+- yarn install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- yarn start
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Favicon 세팅
 
-### `npm test`
+### 각 파일의 역할
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- favicon.ico
+  - 주소 창에 표시되는 대표 아이콘을 뜻하며, 웹사이트의 식별성과 브랜드 인식을 높이는 중요한 요소로 쓰이고 있다.
+  - SEO 관점 : 검색 엔진은 파비콘을 인덱싱 -> 웹사이트의 신뢰성과 전문성을 평가하는 요소로 활용 -> 검색 엔진 결과 페이지의 클릭률을 높이는 데에 기여
+- site.webmanifest
 
-### `npm run build`
+  - 브라우저에 웹 앱이 무엇을 하는지, 어떤 아이콘을 사용해야 하는지, 어떤 시작 URL을 가져야 하는지 등을 알려준다.
+  - 정보 : 웹 앱의 이름 / 아이콘의 경로 및 크기 / 테마 색상 / standalone 모드, fullscreen 모드 등의 어떤 방식으로 동작하는지에 관한 지시사항
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- android-icon
+  - 안드로이드 앱에서 사용되는 아이콘 리소스
+  - 일반적으로 'drawable' 폴더 내에서 관리
+- apple-icon
+  - iOS 기기 및 Safari 웹 브라우저에서 사용되는 아이콘
+  - Apple 디바이스 및 브라우저에 맞는 아이콘 이미지를 제공해야 한다
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## SEO 스코어 분석
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 스코어 분석에 사용한 서비스: (링크 적기, 예: https://www.seobility.net/en/seocheck/)
 
-### `npm run eject`
+### 개선점
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 스코어 개선을 위해 필요한 작업 1
+- 스코어 개선을 위해 필요한 내용 2
+- 스코어 개선을 위해 필요한 내용 3
