@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import MetaTag from "./common/MetaTag";
+import MetaTag from "./components/common/MetaTag";
 
 function App() {
   return (
